@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    background-color: #fffefe;
+    width: 100%;
+    height: 800px;
+    margin: 0;
+}
+
+.secretaria {
+    width: 290px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.barra_lat {
+    background-image: linear-gradient(to right, #003368, #055ba7);
+    width: 24%;
+    height: 75%;
+    position: fixed;
+    border-radius: 0px 0px 20px 0px;
+    z-index: 5;
+}
+.barra_lat2 {
+    background-color: #e2f3fe;
+    width: 24%;
+    height: 500px;
+    position: fixed;
+    margin-top: 300px;
+    z-index: 1;
+}
+
+.barra_lat input{
+    display: none;
+}
+
+#home, #data, #cadastros {
+    width: 40px;
+    margin-left: 15px;
+}
+
+.um, .dois, .tres {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 95%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.um:hover, .dois:hover, .tres:hover {
+    background-color: #2c669d;
+}
+
+.botões {
+    margin-top: 20px;
+}
+
+.botões h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffefe;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.barra_sup {
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 300px;
+    position: fixed;
+    width: 80%;
+    height: 85px;
+    background-color: #fffefe;
+    align-items: center;
+    display: flex;
+}
+
+.barra_sup h1 {
+    margin-left: 20px;
+    color: #003368;
+}
+
+.busao {
+    margin-top: 50px;
+    float: right;
+    width: 76%;
+}
+
+.central {
+    width: 90px;
+}
+
+.botoes_centrais {
+    float: right;
+    width: 800px;
+    height: 500px;
+    background-color: #fffefe;
+    margin-top: -90px;
+    margin-right: 75px;
+    border-radius: 20px;
+    box-shadow: var(--buton-shadow);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.botao1, .botao2, .botao3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffefe;
+    background-color: #055ba7;
+    width: 200px;
+    height: 250px;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: var(--buton-shadow);
+}
+
+.botao1:hover, .botao2:hover, .botao3:hover {
+    background-color: #4092da;
+}
+
+.botao1 img, .botao2 img, .botao3 img {
+    width: 180px;
+}
+
+:root {
+    --buton-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.02), 
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 
+    0 12.5px 10px rgba(0, 0, 0, 0.035), 
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+}
