@@ -82,6 +82,19 @@ body {
     color: #003368;
 }
 
+.barra_sup2 {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, #003368, #055ba7);
+    display: flex;
+    align-items: center;
+}
+
+.img_home {
+    width: 60%;
+    margin-left: 5%;
+}
+
 .busao {
     margin-top: 50px;
     float: right;
@@ -138,17 +151,69 @@ body {
     0 100px 80px rgba(0, 0, 0, 0.07);
 }
 
-.botoes_centrais2 {
-    
-    width: 2000px;
-    height: 990px;
-    background-color: #f0e9e9;
+.template2 {
+    background-color: #fffefe;
+    width: 100%;
+    height: 950px;
+    margin: 0;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.template3 {
+    background-color: #fffefe;
+    width: 100%;
+    height: 1400px;
+    margin: 0;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.template4 {
+    background-color: #fffefe;
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.botoes_centrais2 {  
+    width: 1100px;
+    height: 850px;
+    background-color: #f1f1f1;
     border-radius: 20px;
     box-shadow: var(--buton-shadow);
     align-items: center;
     justify-content: center;
     display: flex;
 }
+
+.botoes_centrais3 {
+    width: 1100px;
+    height: 1300px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    box-shadow: var(--buton-shadow);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.botoes_centrais4 {
+    width: 1100px;
+    height: 700px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    box-shadow: var(--buton-shadow);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 .botao4 img {
     width: 180px;
 }
@@ -174,21 +239,21 @@ body {
     border-radius: 20px;
     height: 30px;
     margin-top: 0px;
-    padding-left: 50px;
+    padding-left: 5%;
+    border-width: 2px;
+    border-color: #767676;
 }
 .control{
     margin-top: 20px;
+    width: 230px;
 }
 .info{
-    margin-top: 80px;
     font-family:'Quicksand', sans-serif;
 }
 .info1{
     margin-top: 20px;
     font-family:'Quicksand', sans-serif;
     font-size: 40px;
-    
-
 }
 .botao{
     margin-top: 10px;
@@ -203,9 +268,13 @@ body {
     background-color: #4092da;
 }
 .tamanho{
-    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .info5{
+    width: 230px;
     font-family:'Quicksand', sans-serif;
 }
 .info6{
@@ -216,7 +285,6 @@ body {
 
 }
 .tabela{
-    padding-left: 50px;
     font-family:'Quicksand', sans-serif;
     border: 0px;
     border-radius: 20px;
@@ -224,10 +292,30 @@ body {
     font-size: 30px;
     
 }
+
+.field {
+    margin-top: 50px;
+}
+
+.turno_button {
+    color:#757474;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 30px;
+    width: 230px;
+    padding-left: 5%;
+    border-width: 2px;
+    border-color: #767676;
+}
 .info7{
     margin-top: 30px;
     font-family:'Quicksand', sans-serif;
-    font-size: 40px;
-    padding-left: 55px;    
+    font-size: 40px;    
 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
